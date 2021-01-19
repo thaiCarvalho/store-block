@@ -6,7 +6,7 @@ import { useQuery } from 'react-apollo'
 import useProduct from 'vtex.product-context/useProduct'
 import productReleaseDate from './queries/productReleaseDate.graphql'
 
-interface CountdownProps { 
+interface CountdownProps {  
   targetDate: string
 }
 
